@@ -5,7 +5,9 @@
 # Eye of the Beholder - Remake
 
 A remake of **Eye of the Beholder 1** (Westwood Associates / SSI, 1991) built in
-Godot 4.7 on top of the original game's data.
+Godot 4.7 on top of the original game's data. The whole thing — the engine, the tools
+that dig through the original files, and this page — was written in
+[Claude Code](https://claude.com/claude-code) by vibe coding.
 
 The goal is fidelity first: the dungeon geometry, the AD&D rules, the level scripts,
 the monster behaviour and every string on screen are read straight out of the original
