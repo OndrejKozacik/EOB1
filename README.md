@@ -2,7 +2,7 @@
   <img src="assets/icon.png" alt="Eye of the Beholder" width="220">
 </p>
 
-# Eye of the Beholder — remake
+# Eye of the Beholder - Remake
 
 A remake of **Eye of the Beholder 1** (Westwood Associates / SSI, 1991) built in
 Godot 4.7 on top of the original game's data.
