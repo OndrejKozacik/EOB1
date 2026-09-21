@@ -12,6 +12,8 @@ the monster behaviour and every string on screen are read straight out of the or
 files, not re-invented. Where the remake adds something, it adds it around the original
 rather than on top of it — and everything new can be switched off.
 
+![The dungeon in the wide layout with upscaled artwork](docs/ui-wide.png)
+
 ## Download
 
 Grab the Windows build from [Releases](../../releases), unzip, run
@@ -32,7 +34,6 @@ thing can live on a USB stick. If the game is installed somewhere read-only, suc
 | `F2` / `F4` | Save / load game |
 | `F6` | Switch between the original artwork and the upscaled pack |
 | `F7` | Switch between the wide layout and the original 320×200 one |
-| `F9` | Fill the party up to six from the NPCs that can be hired in game |
 
 ## What the original gives us
 
@@ -49,33 +50,55 @@ comes out of `EOB.EXE`. Nothing is retyped.
 
 ## What this remake adds
 
-**Upscaled graphics.** An optional art pack rendered through neural upscalers, with the
-wall pieces, monsters, items and interface handled by different models and rules, since
-what flatters a brick wall ruins a 16×16 item icon. Toggle it with `F6`; the original
-artwork is always one keypress away and the two can be compared directly.
+### Upscaled graphics
 
-**Wide layout.** The original composes everything into 320×200. This layout keeps every
-panel pixel-exact but rearranges them, giving the dungeon view most of the window and
-drawing a taller message strip. Toggle it with `F7`.
+An optional art pack rendered through neural upscalers, with the wall pieces, monsters,
+items and interface handled by different models and rules, since what flatters a brick
+wall ruins a 16×16 item icon. Toggle it with `F6`; the original artwork is always one
+keypress away and the two can be compared directly.
 
-**Lands of Lore automap.** The original EOB1 has no automap at all. This one is drawn
-with the marker artwork from Westwood's *Lands of Lore* — doors, stairs, levers, niches,
-pressure plates, pits and teleports each get their own mark, and open doors are drawn
-differently from closed ones.
+![The original artwork next to the upscaled pack](docs/artwork.png)
 
-**Sound.** The original ships no samples, only OPL2 instrument programs. Those are
-pre-rendered to WAV, so the game has its door hinges, its combat, its spells and its
-four tunes without an emulator running underneath.
+*The same corridor: the original 320×200 artwork simply enlarged on the left, the
+upscaled pack on the right.*
 
-**Auto-pickup of thrown weapons.** A rock, dagger, spear or arrow returns to the
-character who threw it as soon as the party steps on it — into the very slot it left
-from, or the belt if that slot has been refilled, or the quiver in the case of ammunition.
-Anything the player puts down by hand is deliberately left alone, so a rock can still
-hold down a pressure plate. Switch it off in *Camp → Preferences* if you want it strict.
+### Wide layout
 
-**Quality of life.** Save and load from the keyboard rather than through the camp menu,
-a main menu that remembers whether a saved game exists, the party auto-compacting when a
-character is dropped, and the display options remembered between runs.
+The original composes everything into 320×200. This layout keeps every panel pixel-exact
+but rearranges them, giving the dungeon view most of the window and drawing a taller
+message strip. The stone background is drawn underneath so the panels never carry a
+rectangle of marble from somewhere else. Toggle it with `F7`.
+
+![The character sheet and inventory](docs/inventory.png)
+
+### Lands of Lore automap
+
+The original EOB1 has no automap at all. This one is drawn with the marker artwork from
+Westwood's *Lands of Lore* — doors, stairs, levers, niches, pressure plates, pits and
+teleports each get their own mark, open doors are drawn differently from closed ones,
+and the whole level fits on the parchment without running into the legend.
+
+![The automap drawn with Lands of Lore artwork](docs/automap.png)
+
+### Sound
+
+The original ships no samples, only OPL2 instrument programs. Those are pre-rendered to
+WAV, so the game has its door hinges, its combat, its spells and its four tunes without
+an emulator running underneath.
+
+### Auto-pickup of thrown weapons
+
+A rock, dagger, spear or arrow returns to the character who threw it as soon as the party
+steps on it — into the very slot it left from, or the belt if that slot has been refilled,
+or the quiver in the case of ammunition. Anything the player puts down by hand is
+deliberately left alone, so a rock can still hold down a pressure plate. Switch it off in
+*Camp → Preferences* if you want it strict.
+
+### Quality of life
+
+Save and load from the keyboard rather than through the camp menu, a main menu that
+remembers whether a saved game exists, the party auto-compacting when a character is
+dropped, and the display options remembered between runs.
 
 ## What is missing
 
