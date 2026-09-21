@@ -12,7 +12,9 @@ the monster behaviour and every string on screen are read straight out of the or
 files, not re-invented. Where the remake adds something, it adds it around the original
 rather than on top of it — and everything new can be switched off.
 
-![The dungeon in the wide layout with upscaled artwork](docs/ui-wide.png)
+![Hell hounds in the drow caverns on level 8](docs/level08.png)
+
+*Level 8, hell hounds in the drow caverns — upscaled artwork, wide layout.*
 
 ## Download
 
@@ -57,10 +59,10 @@ items and interface handled by different models and rules, since what flatters a
 wall ruins a 16×16 item icon. Toggle it with `F6`; the original artwork is always one
 keypress away and the two can be compared directly.
 
-![The original artwork next to the upscaled pack](docs/artwork.png)
+![The original artwork wiping across to the upscaled pack](docs/artwork-slider.gif)
 
-*The same corridor: the original 320×200 artwork simply enlarged on the left, the
-upscaled pack on the right.*
+*The same corridor, the divider sweeping between the two: the original 320×200 artwork
+simply enlarged, and the upscaled pack.*
 
 ### Wide layout
 
@@ -69,7 +71,10 @@ but rearranges them, giving the dungeon view most of the window and drawing a ta
 message strip. The stone background is drawn underneath so the panels never carry a
 rectangle of marble from somewhere else. Toggle it with `F7`.
 
-![The character sheet and inventory](docs/inventory.png)
+![The wide layout with a character's inventory open](docs/ui-wide.png)
+
+*The wide layout with an inventory open: the right column carries the backpack
+instead of the party frames, and the dungeon keeps the rest of the window.*
 
 ### Lands of Lore automap
 
@@ -78,7 +83,9 @@ Westwood's *Lands of Lore* — doors, stairs, levers, niches, pressure plates, p
 teleports each get their own mark, open doors are drawn differently from closed ones,
 and the whole level fits on the parchment without running into the legend.
 
-![The automap drawn with Lands of Lore artwork](docs/automap.png)
+![A partly explored automap drawn with Lands of Lore artwork](docs/automap.png)
+
+*Level 1 part way through: only what the party has walked is on the parchment.*
 
 ### Sound
 
@@ -111,6 +118,18 @@ deliberately left alone, so a rock can still hold down a pressure plate. Switch 
 Save and load from the keyboard rather than through the camp menu, a main menu that
 remembers whether a saved game exists, the party auto-compacting when a character is
 dropped, and the display options remembered between runs.
+
+## More screenshots
+
+Each group of three levels has its own wall set, and the upscaler was tuned per wall
+rather than run over everything at once.
+
+| | |
+| --- | --- |
+| ![Level 1](docs/level01.png) | ![Level 5](docs/level05.png) |
+| *Level 1 — the brick sewers under Waterdeep.* | *Level 5 — the blue dwarven halls.* |
+| ![Level 11](docs/level11.png) | ![Level 12](docs/level12.png) |
+| *Level 11 — a mind flayer in the green caves.* | *Level 12 — a golem in Xanathar's lair.* |
 
 ## What is missing
 
