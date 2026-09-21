@@ -2,7 +2,7 @@
   <img src="assets/icon.png" alt="Eye of the Beholder" width="220">
 </p>
 
-# Eye of the Beholder - Remake
+# Eye of the Beholder — remake
 
 A remake of **Eye of the Beholder 1** (Westwood Associates / SSI, 1991) built in
 Godot 4.7 on top of the original game's data.
@@ -16,7 +16,7 @@ rather than on top of it — and everything new can be switched off.
 
 ## Download
 
-Grab the Windows build from [Releases](../../releases) (Linux and MacOS versions will come later), unzip, run
+Grab the Windows build from [Releases](../../releases), unzip, run
 `Eye of the Beholder.exe`. Everything the game needs is inside the archive; nothing
 else has to be installed.
 
@@ -86,6 +86,18 @@ The original ships no samples, only OPL2 instrument programs. Those are pre-rend
 WAV, so the game has its door hinges, its combat, its spells and its four tunes without
 an emulator running underneath.
 
+Everything the original plays is here. The dungeon murmurs around you on the first three
+levels, on a timer and from a random block nearby, exactly as the original does it — deeper
+down each level carries its own ambience in its script instead. A magic missile bangs when
+its flight ends, whether it hit something or reached a wall; a thrown dagger clatters from
+wherever it landed, quieter the further away that is. Xanathar's death has its own set of
+blows and the finale its fanfare.
+
+The intro sequence has a second sound bank whose numbers collide with the in-game one — six
+is a door switch in the dungeon and something else entirely in the intro — so it is rendered
+and kept separately. The intro fires 45 effects across its six scenes, including the sparks
+over Waterdeep and the murmur of the king's court, both as random as the original made them.
+
 ### Auto-pickup of thrown weapons
 
 A rock, dagger, spear or arrow returns to the character who threw it as soon as the party
@@ -102,10 +114,7 @@ dropped, and the display options remembered between runs.
 
 ## What is missing
 
-A handful of sound effects are not converted yet: the ambient dungeon rumble, the magic
-missile explosion, the thud of a thrown item landing, and the effects in the animated
-sequences. The `Esc` key does nothing in game — quit through *Camp → Game Options →
-Quit Game*.
+The `Esc` key does nothing in game — quit through *Camp → Game Options → Quit Game*.
 
 ## Notes
 
