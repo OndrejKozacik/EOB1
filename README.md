@@ -16,7 +16,7 @@ rather than on top of it — and everything new can be switched off.
 
 ## Download
 
-Grab the Windows build from [Releases](../../releases) (Linux and MacOS version will come later)), unzip, run
+Grab the Windows build from [Releases](../../releases) (Linux and MacOS versions will come later), unzip, run
 `Eye of the Beholder.exe`. Everything the game needs is inside the archive; nothing
 else has to be installed.
 
