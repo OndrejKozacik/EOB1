@@ -24,13 +24,27 @@ rather than on top of it — and everything new can be switched off.
 
 ## Download
 
-Grab the Windows build from [Releases](../../releases), unzip, run
-`Eye of the Beholder.exe`. Everything the game needs is inside the archive; nothing
-else has to be installed.
+Grab the archive for your system from [Releases](../../releases). Everything the game
+needs is inside it; nothing else has to be installed.
 
-Saved games and settings go into a `save` folder next to the executable, so the whole
-thing can live on a USB stick. If the game is installed somewhere read-only, such as
-`Program Files`, it falls back to the user profile instead.
+| | |
+| --- | --- |
+| **Windows** | `EOB1-windows-x64.zip` — unzip, run `Eye of the Beholder.exe` |
+| **Linux** | `EOB1-linux-x86_64.zip` — unzip, run `Eye of the Beholder.x86_64`, keeping the `.pck` beside it |
+| **macOS** | `EOB1-macos-universal.zip` — unzip, run `Eye of the Beholder.app` (Intel and Apple Silicon) |
+
+Windows is the build that has actually been played; the other two come from the same
+source and the same data, but have not been run on real hardware.
+
+The macOS app is not signed or notarized, so the first launch is refused. Right-click the
+app and choose *Open*, or clear the quarantine flag once with
+`xattr -dr com.apple.quarantine "Eye of the Beholder.app"`.
+
+On Windows and Linux, saved games and settings go into a `save` folder next to the
+executable, so the whole thing can live on a USB stick; if the game sits somewhere
+read-only, such as `Program Files`, it falls back to the user profile instead. On macOS
+they go into `~/Library/Application Support/`, because writing inside an `.app` bundle
+would not survive replacing the app.
 
 ## Controls
 
