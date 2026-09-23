@@ -14,9 +14,9 @@ the monster behaviour and every string on screen are read straight out of the or
 files, not re-invented. Where the remake adds something, it adds it around the original
 rather than on top of it — and everything new can be switched off.
 
-![Hell hounds in the drow caverns on level 8](docs/level08.png)
+![A drider in the drow caverns on level 8](docs/level08.png)
 
-*Level 8, hell hounds in the drow caverns — upscaled artwork, wide layout.*
+*Level 8, a drider in the drow caverns — upscaled artwork, wide layout.*
 
 ## Download
 
@@ -129,7 +129,7 @@ rather than run over everything at once.
 | | |
 | --- | --- |
 | ![Level 1](docs/level01.png) | ![Level 5](docs/level05.png) |
-| *Level 1 — the brick sewers under Waterdeep.* | *Level 5 — the blue dwarven halls.* |
+| *Level 1 — the brick sewers under Waterdeep.* | *Level 5 — a giant spider in the blue dwarven halls.* |
 | ![Level 11](docs/level11.png) | ![Level 12](docs/level12.png) |
 | *Level 11 — a mind flayer in the green caves.* | *Level 12 — a golem in Xanathar's lair.* |
 
