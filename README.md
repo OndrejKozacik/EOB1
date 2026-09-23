@@ -2,6 +2,10 @@
   <img src="assets/icon.png" alt="Eye of the Beholder" width="220">
 </p>
 
+<p align="center">
+  <img src="assets/justvibeit-logo.png" alt="Just Vibe It - vibing into the old times" width="480">
+</p>
+
 # Eye of the Beholder - Vibemake
 
 A remake of **Eye of the Beholder 1** (Westwood Associates / SSI, 1991) built in
