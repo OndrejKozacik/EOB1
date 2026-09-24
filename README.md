@@ -15,9 +15,9 @@
 > respective owners.
 >
 > This is a non-commercial hobby project. Nothing here is for sale and there are no donations,
-> ads or sponsorships of any kind. **Please buy the original game** — look for the
-> *Eye of the Beholder* trilogy on
-> [GOG](https://www.gog.com/en/games?query=eye%20of%20the%20beholder).
+> ads or sponsorships of any kind. **Please buy the original game** — the
+> *Eye of the Beholder* trilogy is sold on GOG as
+> [Forgotten Realms: The Archives — Collection One](https://www.gog.com/en/game/forgotten_realms_the_archives_collection_one).
 >
 > **If a rights holder objects, tell me and I will take this repository and its releases down.**
 
