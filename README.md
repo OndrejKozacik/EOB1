@@ -8,6 +8,19 @@
 
 # Eye of the Beholder - Vibemake
 
+> **⚠️ Unofficial fan project — no connection to the rights holders.**
+> It is not affiliated with, endorsed by, or approved by the creators or the current owners of
+> *Eye of the Beholder*, nor by Wizards of the Coast. *Eye of the Beholder*,
+> *Advanced Dungeons & Dragons*, *Forgotten Realms* and all related marks belong to their
+> respective owners.
+>
+> This is a non-commercial hobby project. Nothing here is for sale and there are no donations,
+> ads or sponsorships of any kind. **Please buy the original game** — look for the
+> *Eye of the Beholder* trilogy on
+> [GOG](https://www.gog.com/en/games?query=eye%20of%20the%20beholder).
+>
+> **If a rights holder objects, tell me and I will take this repository and its releases down.**
+
 A remake of **Eye of the Beholder 1** (Westwood Associates / SSI, 1991) built in
 Godot 4.7 on top of the original game's data. The whole thing — the engine, the tools
 that dig through the original files, and this page — was written in
