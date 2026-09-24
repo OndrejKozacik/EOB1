@@ -33,8 +33,8 @@ needs is inside it; nothing else has to be installed.
 | **Linux** | `EOB1-linux-x86_64.zip` — unzip, run `Eye of the Beholder.x86_64`, keeping the `.pck` beside it |
 | **macOS** | `EOB1-macos-universal.zip` — unzip, run `Eye of the Beholder.app` (Intel and Apple Silicon) |
 
-Windows is the build that has actually been played; the other two come from the same
-source and the same data, but have not been run on real hardware.
+Windows and Linux have both been played — Linux under WSL2 on Windows. The macOS build
+comes from the same source and the same data, but has not been started on a Mac yet.
 
 The macOS app is not signed or notarized, so the first launch is refused. Right-click the
 app and choose *Open*, or clear the quarantine flag once with
