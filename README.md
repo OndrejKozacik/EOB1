@@ -159,8 +159,9 @@ deliberately left alone, so a rock can still hold down a pressure plate. Switch 
 ### Quality of life
 
 Save and load from the keyboard rather than through the camp menu, a main menu that
-remembers whether a saved game exists, the party auto-compacting when a character is
-dropped, and the display options remembered between runs.
+remembers whether a saved game exists, and the display options remembered between runs.
+Dropping a character works as in the original: if they stood in the front, the last
+character takes their place, and nobody else moves.
 
 ## More screenshots
 
