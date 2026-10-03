@@ -63,12 +63,20 @@ would not survive replacing the app.
 
 | Key | Action |
 | --- | --- |
-| Arrow keys, `W` `A` `S` `D` | Move and turn |
+| `↑` `↓`, `W` `S` | Step forward / back |
+| `←` `→`, `A` `D` | Step sideways, as in the original |
+| `Home` `PgUp`, `Q` `E` | Turn left / right |
 | Mouse | Everything else — the interface is the original's: click the floor to pick things up, click a character's weapon to attack |
+| `F1`–`F6` | Pick a character, as in the original; `Shift`+`F1`–`F6` swaps two characters |
+| `I` | Inventory of the picked character |
 | `C` | Camp |
-| `F2` / `F4` | Save / load game |
-| `F6` | Switch between the original artwork and the upscaled pack |
+| `Ctrl`+`F2` / `Ctrl`+`F4` | Save / load game (`Alt` works too) |
+| `Ctrl`+`F6` | Switch between the original artwork and the upscaled pack |
 | `F7` | Switch between the wide layout and the original 320×200 one |
+| `Alt`+`S` | Sounds on / off, as in the original |
+
+The original uses the F keys for the characters, so the remake's own save, load and artwork
+keys sit on `Ctrl` (or `Alt`).
 
 ## What the original gives us
 
@@ -89,7 +97,7 @@ comes out of `EOB.EXE`. Nothing is retyped.
 
 An optional art pack rendered through neural upscalers, with the wall pieces, monsters,
 items and interface handled by different models and rules, since what flatters a brick
-wall ruins a 16×16 item icon. Toggle it with `F6`; the original artwork is always one
+wall ruins a 16×16 item icon. Toggle it with `Ctrl`+`F6`; the original artwork is always one
 keypress away and the two can be compared directly.
 
 ![The original artwork wiping across to the upscaled pack](docs/artwork-slider.gif)
@@ -128,10 +136,12 @@ an emulator running underneath.
 
 Everything the original plays is here. The dungeon murmurs around you on the first three
 levels, on a timer and from a random block nearby, exactly as the original does it — deeper
-down each level carries its own ambience in its script instead. A magic missile bangs when
-its flight ends, whether it hit something or reached a wall; a thrown dagger clatters from
-wherever it landed, quieter the further away that is. Xanathar's death has its own set of
-blows and the finale its fanfare.
+down each level carries its own ambience in its script instead. A spell that explodes bursts
+into sparks with a bang — but only where the party can see it; out of sight it is silent, as
+in the original. A thrown dagger clatters when it lands, and the original plays that sound at
+full volume wherever it fell. Sounds share the original's channels and priorities, so a new
+sound cuts off or gives way to the one already playing, the way the AdLib driver did it.
+Xanathar's death has its own set of blows and the finale its fanfare.
 
 The intro sequence has a second sound bank whose numbers collide with the in-game one — six
 is a door switch in the dungeon and something else entirely in the intro — so it is rendered
@@ -166,7 +176,7 @@ rather than run over everything at once.
 
 ## What is missing
 
-The `Esc` key does nothing in game — quit through *Camp → Game Options → Quit Game*.
+The `Esc` key does nothing on the main screen, as in the original — quit through *Camp → Game Options → Quit Game*.
 
 ## Notes
 
