@@ -70,6 +70,7 @@ would not survive replacing the app.
 | `F1`–`F6` | Pick a character, as in the original; `Shift`+`F1`–`F6` swaps two characters |
 | `I` | Inventory of the picked character |
 | `C` | Camp |
+| `Tab`, `M` | Automap |
 | `Ctrl`+`F2` / `Ctrl`+`F4` | Save / load game (`Alt` works too) |
 | `Ctrl`+`F6` | Switch between the original artwork and the upscaled pack |
 | `F7` | Switch between the wide layout and the original 320×200 one |
@@ -117,12 +118,29 @@ rectangle of marble from somewhere else. Toggle it with `F7`.
 *The wide layout with an inventory open: the right column carries the backpack
 instead of the party frames, and the dungeon keeps the rest of the window.*
 
+### Automap from the Amiga AGA version
+
+In 2006 CFou! rebuilt both games for the Amiga's AGA chipset and gave them something the PC
+originals never had: an automap. It is carried over here one to one — the crumpled parchment,
+the little icons, the Amiga font, the legend and the rules that decide what gets drawn,
+right down to its quirks. Places such as the falls, the dwarves' camp or the kenku nest
+join the legend once the party has seen them, and typing C-F-O-U on the map switches on its
+cheat mode, exactly as on the Amiga.
+
+It is the default map: `Tab` or `M` opens it. The Lands of Lore map below is one click away
+in *Camp → Preferences*, and both reveal the same squares, so switching never loses what the
+party has already explored.
+
+![The Amiga automap of level 1](docs/automap-amiga.png)
+
+*Level 1 part way through, drawn the way the Amiga version draws it.*
+
 ### Lands of Lore automap
 
-The original EOB1 has no automap at all. This one is drawn with the marker artwork from
-Westwood's *Lands of Lore* — doors, stairs, levers, niches, pressure plates, pits and
-teleports each get their own mark, open doors are drawn differently from closed ones,
-and the whole level fits on the parchment without running into the legend.
+The original EOB1 has no automap at all. The second map style is drawn with the marker
+artwork from Westwood's *Lands of Lore* — doors, stairs, levers, niches, pressure plates,
+pits and teleports each get their own mark, open doors are drawn differently from closed
+ones, and the whole level fits on the parchment without running into the legend.
 
 ![A partly explored automap drawn with Lands of Lore artwork](docs/automap.png)
 
@@ -184,3 +202,6 @@ The `Esc` key does nothing on the main screen, as in the original — quit throu
 The game data itself is not in this repository. The build is produced from a personal
 copy of the original game, and the graphics, sounds and maps are baked into the package
 at build time.
+
+The Amiga automap is CFou!'s work from his Eye of the Beholder AGA releases (2006, giftware);
+its parchment, icons and font are read from that release at build time.
